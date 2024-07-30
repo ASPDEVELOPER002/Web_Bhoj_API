@@ -97,7 +97,7 @@ class AuthController extends Controller
             'errors'=>$ValidateUser->error()->all(),
             'obj'=>$users
          ],200); 
-
+ 
     }
   }
 
