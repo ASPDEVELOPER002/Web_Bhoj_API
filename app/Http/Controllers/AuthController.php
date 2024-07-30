@@ -96,7 +96,7 @@ class AuthController extends Controller
             'message'=>'User Creation Successfully',
             'errors'=>$ValidateUser->error()->all(),
             'obj'=>$users
-         ],200);
+         ],200); 
 
     }
   }
